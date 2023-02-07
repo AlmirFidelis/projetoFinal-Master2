@@ -15,7 +15,7 @@
 /* VARIAVEIS 
 ********************************* */
 :root {
-    --color-main-one: #FFA500;
+    --color-main-one: #00d9ff;
     --color-main-two: #FFFFFF;
     --color-main-tree: #121212;
 }
@@ -49,7 +49,7 @@ header .container {
 .general {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/buggyPepeu.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/chile.jpg) no-repeat;
     background-position: left;
     background-size: cover;
     object-fit: cover;
@@ -247,7 +247,7 @@ header .container {
 }
 
 .card1 {
-    background: url(../img/pipa.jpg);
+    background: url(../img/Ilha-de-Pascoa.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -274,7 +274,7 @@ header .container {
     background-size: cover;
 }
 
-button {
+a.button {
     margin-top: 20px;
     padding: 12px 18px;
     width: 200px;
@@ -293,7 +293,7 @@ button {
     animation: 3s buttonBottom forwards;
 }
 
-button:hover {
+a.button:hover {
     background: transparent;
     border: 1px solid var(--color-main-one);
     color: var(--color-main-one);
